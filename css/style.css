@@ -9,10 +9,14 @@
     border: 1px dashed black;
 }
 
-/* HEADER */
-.container{
+.box{
     display: flex;
-    padding: 1rem 4rem;
+    justify-content: center;
+    padding: 1rem 4rem; 
+}
+
+/* HEADER */
+.bgc-light{
     background-color: rgb(171, 215, 229);
 }
 
@@ -24,18 +28,8 @@
     flex-grow: calc(100 / 4);
 }
 
-.head-box{
-    display: flex;
-    justify-content: space-around;
-    padding: 1rem 4rem;
+.head{
     background-color: blue;
-}
-
-/* MAIN */
-.main-box{
-    display: flex;
-    padding: 1rem 4rem;
-    justify-content: center;
 }
 
 .lilla{
@@ -44,30 +38,53 @@
     background-color: rgb(237, 129, 237);
 }
 
-.first{
+/* MAIN */
+
+.bgc-white{
     background-color: white;
 }
 
-.pink-box{
+.pink{
     width: 10rem;
     height: 10rem;
     background-color: rgb(255, 191, 202);
 }
 
-.sky-box{
+.sky{
     width: 18rem;
     height: 10rem;
     background-color: rgb(35, 143, 255);
 }
 
-.second{
+.bgc-grey{
     background-color: rgb(210, 210, 210);
 }
 
-.green-box{
+.green{
     width: 28rem;
     height: 20rem;
     background-color: rgb(39, 138, 39);
 }
 
 /* FOOTER */
+
+.bgc-dark{
+    background-color: rgb(40, 43, 46);
+    padding-top: 0.5rem;
+}
+
+.border-white{
+    border: 1px dashed white;
+}
+
+.coral{
+    width: 8rem;
+    height: 10rem;
+    background-color: rgb(239, 127, 127);
+}
+
+.marine{
+    width: 5rem;
+    height: 10rem;
+    background-color: rgb(37, 176, 168);
+}
