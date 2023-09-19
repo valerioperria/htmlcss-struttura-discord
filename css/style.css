@@ -15,17 +15,31 @@
     padding: 1rem 4rem; 
 }
 
+
 /* HEADER */
 .bgc-light{
     background-color: rgb(171, 215, 229);
 }
 
 .log{
-    list-style: none;
     display: flex;
-    justify-content: center;
     background-color: rgb(217, 163, 37);
-    flex-grow: calc(100 / 4);
+}
+
+.link{
+    justify-content: center;
+    list-style: none;
+    width: 50rem;
+}
+
+.logo{
+    justify-content: flex-start;
+    width: 17rem;
+}
+
+.login{
+    justify-content: flex-end;
+    width: 17rem;
 }
 
 .head{
@@ -33,8 +47,8 @@
 }
 
 .lilla{
-    width: 20rem;
-    height: 8rem;
+    width: 45rem;
+    height: 25rem;
     background-color: rgb(237, 129, 237);
 }
 
@@ -45,14 +59,14 @@
 }
 
 .pink{
-    width: 10rem;
-    height: 10rem;
+    width: 30rem;
+    height: 30rem;
     background-color: rgb(255, 191, 202);
 }
 
 .sky{
-    width: 18rem;
-    height: 10rem;
+    width: 54rem;
+    height: 30rem;
     background-color: rgb(35, 143, 255);
 }
 
@@ -61,8 +75,8 @@
 }
 
 .green{
-    width: 28rem;
-    height: 20rem;
+    width: 84rem;
+    height: 40rem;
     background-color: rgb(39, 138, 39);
 }
 
@@ -78,13 +92,30 @@
 }
 
 .coral{
-    width: 8rem;
-    height: 10rem;
+    width: 40rem;
+    height: 30rem;
     background-color: rgb(239, 127, 127);
 }
 
 .marine{
-    width: 5rem;
-    height: 10rem;
+    width: 11rem;
+    height: 30rem;
     background-color: rgb(37, 176, 168);
+}
+
+.down{
+    display: flex;
+    background-color: aquamarine;
+    width: 84rem;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.last{
+    background-color: plum;
+    padding: 2px 1rem;
+}
+
+.last-padding{
+    padding-bottom: 0;
 }
